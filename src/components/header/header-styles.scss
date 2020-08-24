@@ -1,0 +1,29 @@
+.header {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  user-select: none;
+
+  &__background {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__title {
+    font-size: 55px;
+    position: absolute;
+    top: 120px;
+    left: 470px;
+    color: #2d2d2d;
+
+    &:before {
+      content: '« ';
+    }
+
+    &:after {
+      content: ' »';
+    }
+
+  }
+
+}
